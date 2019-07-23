@@ -1,0 +1,10 @@
+digraph "sc_core::sc_fifo_in&lt; T &gt;"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node5 [label="sc_core::sc_fifo_in\< T \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="sc_core::sc_port\< sc\l_fifo_in_if\< T \>, 0,\l SC_ONE_OR_MORE_BOUND \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a01224.html"];
+  Node7 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="sc_core::sc_port_b\l\< sc_fifo_in_if\< T \> \>",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a01220.html"];
+}

@@ -1,0 +1,35 @@
+digraph "sysc/datatypes/int/sc_bigint.h"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node0 [label="sysc/datatypes/int\l/sc_bigint.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="sysc/datatypes/int\l/sc_signed.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a00203.html"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="sysc/kernel/sc_object.h",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a00281.html"];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="sysc/datatypes/misc\l/sc_value_base.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a00218.html"];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12 [label="sysc/datatypes/int\l/sc_nbdefs.h",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a00194.html"];
+  Node1 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16 [label="sysc/utils/sc_temporary.h",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a00389.html"];
+  Node1 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18 [label="sysc/datatypes/int\l/sc_length_param.h",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a00191.html"];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 -> Node39 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node39 [label="sysc/datatypes/int\l/sc_nbutils.h",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a00200.html"];
+  Node39 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 -> Node48 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node48 [label="sysc/datatypes/int\l/sc_nbexterns.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a00197.html"];
+  Node48 -> Node39 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 -> Node49 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node49 [label="sysc/datatypes/int\l/sc_unsigned.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a00212.html"];
+  Node49 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node49 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node49 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node49 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node49 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node49 -> Node39 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node49 -> Node48 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node0 -> Node49 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

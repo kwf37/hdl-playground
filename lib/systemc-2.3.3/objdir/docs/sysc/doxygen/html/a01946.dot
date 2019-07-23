@@ -1,0 +1,14 @@
+digraph "sc_core::sc_reset"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node1 [label="sc_core::sc_reset",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_targets" ,fontname="FreeSans"];
+  Node2 [label="std::vector\< sc_core\l::sc_reset_target \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="FreeSans"];
+  Node3 [label="sc_core::sc_reset_target",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a01940.html"];
+  Node17 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_iface_p" ,fontname="FreeSans"];
+  Node17 [label="sc_core::sc_signal\l_in_if\< bool \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a01268.html"];
+  Node18 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18 [label="sc_core::sc_interface",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a01196.html"];
+}

@@ -1,0 +1,24 @@
+digraph "sc_core::sc_signal_t&lt; T, POL &gt;"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node14 [label="sc_core::sc_signal\l_t\< T, POL \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node15 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15 [label="sc_core::sc_signal\l_inout_if\< T \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a01280.html"];
+  Node16 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16 [label="sc_core::sc_signal\l_in_if\< T \>",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a01264.html"];
+  Node18 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18 [label="sc_core::sc_signal\l_write_if\< T \>",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a01276.html"];
+  Node19 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19 [label="sc_core::sc_signal\l_channel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a01244.html"];
+  Node20 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20 [label="sc_core::sc_prim_channel",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a01228.html"];
+  Node22 -> Node19 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_change_event_p" ,fontname="FreeSans"];
+  Node22 [label="sc_core::sc_event",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a01828.html"];
+  Node22 -> Node22 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" none" ,fontname="FreeSans"];
+  Node23 -> Node14 [dir="back",color="darkgreen",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23 [label="sc_core::sc_writer\l_policy_check\< POL \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a01352.html"];
+  Node24 -> Node14 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_new_val\nm_cur_val" ,fontname="FreeSans"];
+  Node24 [label="T",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}

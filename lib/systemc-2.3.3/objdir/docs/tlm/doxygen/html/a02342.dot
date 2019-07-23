@@ -1,0 +1,23 @@
+digraph "tlm::tlm_blocking_slave_if&lt; REQ, RSP &gt;"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="tlm::tlm_blocking_slave\l_if\< REQ, RSP \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="tlm::tlm_blocking_put\l_if\< RSP \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a02279.html"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="sc_core::sc_interface",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="/mnt/c/Users/fangk/Documents/hdl-playground/lib/systemc-2.3.3/objdir/docs/sysc/doxygen/systemc.tag$a01196.html"];
+  Node3 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="tlm::tlm_blocking_get\l_peek_if\< REQ \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a02311.html"];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="tlm::tlm_blocking_get\l_if\< REQ \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a02275.html"];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="tlm::tlm_blocking_peek\l_if\< REQ \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a02299.html"];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node0 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="tlm::tlm_slave_if\<\l REQ, RSP \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a02359.html"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="tlm::tlm_slave_imp\l\< REQ, RSP \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a02391.html"];
+}

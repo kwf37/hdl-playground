@@ -1,0 +1,12 @@
+digraph "sysc/tracing/sc_tracing_ids.h"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node6 [label="sysc/tracing/sc_tracing\l_ids.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="sysc/tracing/sc_trace\l_file_base.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a00344.html"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="sysc/tracing/sc_vcd\l_trace.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a00350.html"];
+  Node7 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="sysc/tracing/sc_wif\l_trace.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a00353.html"];
+}

@@ -1,0 +1,11 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node320 [label="std::exception",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip="STL class. "];
+  Node320 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node0 [label="sc_core::sc_report",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a02100.html"];
+  Node320 -> Node322 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node322 [label="sc_core::sc_unwind\l_exception",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a01852.html"];
+}

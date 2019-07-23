@@ -1,0 +1,15 @@
+digraph "sysc/tracing" {
+  compound=true
+  node [ fontsize="10", fontname="FreeSans"];
+  edge [ labelfontsize="10", labelfontname="FreeSans"];
+  subgraph clusterdir_b3fe251d03f02f270a00ddc1eaee8ac2 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="sysc" fontname="FreeSans", fontsize="10", URL="dir_b3fe251d03f02f270a00ddc1eaee8ac2.html"]
+  dir_4eddbcb30e9a369379b31e2b2e8cd530 [shape=box, label="tracing", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_4eddbcb30e9a369379b31e2b2e8cd530.html"];
+  }
+  dir_b4b56023568c35e5a49172d00a6c7a39 [shape=box label="kernel" URL="dir_b4b56023568c35e5a49172d00a6c7a39.html"];
+  dir_5e69c086e82be690ab2b0365646e74e7 [shape=box label="datatypes" fillcolor="white" style="filled" color="red" URL="dir_5e69c086e82be690ab2b0365646e74e7.html"];
+  dir_b4b56023568c35e5a49172d00a6c7a39->dir_5e69c086e82be690ab2b0365646e74e7 [headlabel="3", labeldistance=1.5 headhref="dir_000007_000002.html"];
+  dir_5e69c086e82be690ab2b0365646e74e7->dir_b4b56023568c35e5a49172d00a6c7a39 [headlabel="17", labeldistance=1.5 headhref="dir_000002_000007.html"];
+  dir_4eddbcb30e9a369379b31e2b2e8cd530->dir_b4b56023568c35e5a49172d00a6c7a39 [headlabel="2", labeldistance=1.5 headhref="dir_000008_000007.html"];
+  dir_4eddbcb30e9a369379b31e2b2e8cd530->dir_5e69c086e82be690ab2b0365646e74e7 [headlabel="2", labeldistance=1.5 headhref="dir_000008_000002.html"];
+}

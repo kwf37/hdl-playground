@@ -1,0 +1,17 @@
+digraph "tlm::tlm_target_socket&lt; BUSWIDTH, TYPES, N, POL &gt;"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node11 [label="tlm::tlm_target_socket\l\< BUSWIDTH, TYPES, N, POL \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node12 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12 [label="tlm::tlm_base_target\l_socket\< BUSWIDTH, tlm\l_fw_transport_if\< TYPES\l \>, tlm_bw_transport_if\l\< TYPES \>, N, POL \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a02511.html"];
+  Node13 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13 [label="tlm::tlm_base_socket_if",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a02499.html"];
+  Node14 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14 [label="tlm::tlm_base_target\l_socket_b\< BUSWIDTH,\l tlm_fw_transport_if\<\l TYPES \>, tlm_bw_transport\l_if\< TYPES \> \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a02507.html"];
+  Node15 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15 [label="sc_core::sc_export\l\< tlm_fw_transport_if\l\< TYPES \> \>",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="/mnt/c/Users/fangk/Documents/hdl-playground/lib/systemc-2.3.3/objdir/docs/sysc/doxygen/systemc.tag$a01144.html"];
+  Node18 -> Node12 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_port" ,fontname="FreeSans"];
+  Node18 [label="sc_core::sc_port\< bw\l_interface_type, N, POL \>",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="/mnt/c/Users/fangk/Documents/hdl-playground/lib/systemc-2.3.3/objdir/docs/sysc/doxygen/systemc.tag$a01224.html"];
+}

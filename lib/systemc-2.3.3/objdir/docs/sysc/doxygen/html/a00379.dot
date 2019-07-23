@@ -1,0 +1,26 @@
+digraph "sysc/utils/sc_report_handler.h"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node1 [label="sysc/utils/sc_report\l_handler.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="sysc/utils/sc_report.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a00374.html"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="sysc/kernel/sc_kernel\l_ids.h",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a00260.html"];
+  Node2 -> Node81 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node81 [label="sysc/communication\l/sc_communication_ids.h",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a00011.html"];
+  Node2 -> Node83 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node83 [label="sysc/datatypes/fx/sc\l_fx_ids.h",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a00122.html"];
+  Node2 -> Node93 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node93 [label="sysc/datatypes/bit\l/sc_bit_ids.h",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a00086.html"];
+  Node93 -> Node94 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node94 [label="sysc/datatypes/int\l/sc_nbutils.h",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a00200.html"];
+  Node2 -> Node96 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node96 [label="sysc/datatypes/int\l/sc_int_ids.h",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a00188.html"];
+  Node96 -> Node94 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 -> Node94 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 -> Node97 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node97 [label="sysc/utils/sc_stop\l_here.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a00380.html"];
+  Node2 -> Node98 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node98 [label="sysc/utils/sc_string.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a00383.html"];
+}

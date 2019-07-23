@@ -1,0 +1,17 @@
+digraph "tlm_core/tlm_1/tlm_req_rsp/tlm_channels/tlm_req_rsp_channels" {
+  compound=true
+  node [ fontsize="10", fontname="FreeSans"];
+  edge [ labelfontsize="10", labelfontname="FreeSans"];
+  subgraph clusterdir_6a42bdaa6678bc7e2ea3941dd8076950 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="tlm_channels" fontname="FreeSans", fontsize="10", URL="dir_6a42bdaa6678bc7e2ea3941dd8076950.html"]
+  dir_1729b31a48cd88e8e890a3ddbd766fe0 [shape=box, label="tlm_req_rsp_channels", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_1729b31a48cd88e8e890a3ddbd766fe0.html"];
+  }
+  dir_5f70767138aee3c2ec25bd4f46b07b10 [shape=box label="tlm_fifo" URL="dir_5f70767138aee3c2ec25bd4f46b07b10.html"];
+  dir_f785f1cf03833b37a7d700071cbb24f9 [shape=box label="tlm_adapters" URL="dir_f785f1cf03833b37a7d700071cbb24f9.html"];
+  dir_7bfea407d87c74d0d6a8a9e31733fb55 [shape=box label="tlm_1_interfaces" URL="dir_7bfea407d87c74d0d6a8a9e31733fb55.html"];
+  dir_5f70767138aee3c2ec25bd4f46b07b10->dir_7bfea407d87c74d0d6a8a9e31733fb55 [headlabel="1", labeldistance=1.5 headhref="dir_000007_000004.html"];
+  dir_f785f1cf03833b37a7d700071cbb24f9->dir_7bfea407d87c74d0d6a8a9e31733fb55 [headlabel="1", labeldistance=1.5 headhref="dir_000005_000004.html"];
+  dir_1729b31a48cd88e8e890a3ddbd766fe0->dir_5f70767138aee3c2ec25bd4f46b07b10 [headlabel="1", labeldistance=1.5 headhref="dir_000008_000007.html"];
+  dir_1729b31a48cd88e8e890a3ddbd766fe0->dir_f785f1cf03833b37a7d700071cbb24f9 [headlabel="1", labeldistance=1.5 headhref="dir_000008_000005.html"];
+  dir_1729b31a48cd88e8e890a3ddbd766fe0->dir_7bfea407d87c74d0d6a8a9e31733fb55 [headlabel="1", labeldistance=1.5 headhref="dir_000008_000004.html"];
+}

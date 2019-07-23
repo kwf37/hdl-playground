@@ -1,0 +1,45 @@
+digraph "sc_core::sc_port_base"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="sc_core::sc_port_base",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="sc_core::sc_object",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a01884.html"];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="sc_core::sc_port_b\l\< IF \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a01220.html"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="sc_core::sc_port\< IF \>",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a01224.html"];
+  Node0 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="sc_core::sc_port_b\l\< sc_fifo_in_if\< T \> \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a01220.html"];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="sc_core::sc_port\< sc\l_fifo_in_if\< T \>, 0,\l SC_ONE_OR_MORE_BOUND \>",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a01224.html"];
+  Node0 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12 [label="sc_core::sc_port_b\l\< sc_fifo_out_if\< T \> \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a01220.html"];
+  Node12 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13 [label="sc_core::sc_port\< sc\l_fifo_out_if\< T \>, 0,\l SC_ONE_OR_MORE_BOUND \>",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a01224.html"];
+  Node0 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15 [label="sc_core::sc_port_b\l\< sc_signal_in_if\< bool \> \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a01220.html"];
+  Node15 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16 [label="sc_core::sc_port\< sc\l_signal_in_if\< bool \>\l, 1, SC_ONE_OR_MORE_BOUND \>",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a01224.html"];
+  Node0 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18 [label="sc_core::sc_port_b\l\< sc_signal_in_if\< sc\l_dt::sc_logic \> \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a01220.html"];
+  Node18 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19 [label="sc_core::sc_port\< sc\l_signal_in_if\< sc_dt\l::sc_logic \>, 1, SC_ONE\l_OR_MORE_BOUND \>",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a01224.html"];
+  Node0 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22 [label="sc_core::sc_port_b\l\< sc_signal_in_if\< T \> \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a01220.html"];
+  Node22 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23 [label="sc_core::sc_port\< sc\l_signal_in_if\< T \>, 1,\l SC_ONE_OR_MORE_BOUND \>",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a01224.html"];
+  Node0 -> Node25 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node25 [label="sc_core::sc_port_b\l\< sc_signal_inout_if\l\< bool \> \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a01220.html"];
+  Node25 -> Node26 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node26 [label="sc_core::sc_port\< sc\l_signal_inout_if\< bool\l \>, 1, SC_ONE_OR_MORE_BOUND \>",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a01224.html"];
+  Node0 -> Node29 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node29 [label="sc_core::sc_port_b\l\< sc_signal_inout_if\l\< sc_dt::sc_logic \> \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a01220.html"];
+  Node29 -> Node30 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node30 [label="sc_core::sc_port\< sc\l_signal_inout_if\< sc\l_dt::sc_logic \>, 1, SC\l_ONE_OR_MORE_BOUND \>",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a01224.html"];
+  Node0 -> Node34 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34 [label="sc_core::sc_port_b\l\< sc_signal_inout_if\l\< T \> \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a01220.html"];
+  Node34 -> Node35 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node35 [label="sc_core::sc_port\< sc\l_signal_inout_if\< T \>\l, 1, SC_ONE_OR_MORE_BOUND \>",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a01224.html"];
+}

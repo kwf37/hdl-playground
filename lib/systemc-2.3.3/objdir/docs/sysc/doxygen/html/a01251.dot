@@ -1,0 +1,19 @@
+digraph "sc_core::sc_signal&lt; T, POL &gt;"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="sc_core::sc_signal\l\< T, POL \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="sc_core::sc_signal\l_t\< T, POL \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a01248.html"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="sc_core::sc_signal\l_inout_if\< T \>",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a01280.html"];
+  Node6 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="sc_core::sc_signal\l_channel",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a01244.html"];
+  Node9 -> Node1 [dir="back",color="darkgreen",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="sc_core::sc_writer\l_policy_check\< POL \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a01352.html"];
+  Node0 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="sc_core::sc_buffer\l\< T, POL \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a01108.html"];
+  Node0 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="sc_core::sc_clock\<\l bool, SC_ONE_WRITER \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a01112.html"];
+}

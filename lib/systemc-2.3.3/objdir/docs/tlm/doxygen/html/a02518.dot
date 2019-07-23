@@ -1,0 +1,21 @@
+digraph "tlm::tlm_initiator_socket&lt; BUSWIDTH, TYPES, N, POL &gt;"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="tlm::tlm_initiator\l_socket\< BUSWIDTH, TYPES,\l N, POL \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="tlm::tlm_base_initiator\l_socket\< BUSWIDTH, tlm\l_fw_transport_if\< TYPES\l \>, tlm_bw_transport_if\l\< TYPES \>, N, POL \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a02515.html"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="tlm::tlm_base_socket_if",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a02499.html"];
+  Node3 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="tlm::tlm_base_initiator\l_socket_b\< BUSWIDTH, tlm\l_fw_transport_if\< TYPES\l \>, tlm_bw_transport_if\<\l TYPES \> \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a02503.html"];
+  Node4 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="sc_core::sc_port\< tlm\l_fw_transport_if\< TYPES\l \>, N, POL \>",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="/mnt/c/Users/fangk/Documents/hdl-playground/lib/systemc-2.3.3/objdir/docs/sysc/doxygen/systemc.tag$a01224.html"];
+  Node0 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="tlm_utils::multi_init\l_base\< BUSWIDTH, TYPES,\l N, POL \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a02603.html"];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="multi_passthrough_initiator\l_socket\< MODULE, BUSWIDTH,\l TYPES, N, sc_core::SC_ZERO\l_OR_MORE_BOUND \>",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a02571.html"];
+  Node8 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="tlm_utils::multi_passthrough\l_initiator_socket\< BUSWIDTH,\l TYPES, N, POL \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a02571.html"];
+}

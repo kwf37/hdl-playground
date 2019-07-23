@@ -1,0 +1,19 @@
+digraph "tlm::tlm_base_target_socket&lt; BUSWIDTH, FW_IF, BW_IF, N, POL &gt;"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node6 [label="tlm::tlm_base_target\l_socket\< BUSWIDTH, FW\l_IF, BW_IF, N, POL \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node7 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="tlm::tlm_base_socket_if",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a02499.html"];
+  Node8 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="tlm::tlm_base_target\l_socket_b\< BUSWIDTH,\l FW_IF, BW_IF \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a02507.html"];
+  Node9 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="sc_core::sc_export\l\< FW_IF \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="/mnt/c/Users/fangk/Documents/hdl-playground/lib/systemc-2.3.3/objdir/docs/sysc/doxygen/systemc.tag$a01144.html"];
+  Node10 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="sc_core::sc_export_base",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="/mnt/c/Users/fangk/Documents/hdl-playground/lib/systemc-2.3.3/objdir/docs/sysc/doxygen/systemc.tag$a01140.html"];
+  Node12 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_port" ,fontname="FreeSans"];
+  Node12 [label="sc_core::sc_port\< bw\l_interface_type, N, POL \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="/mnt/c/Users/fangk/Documents/hdl-playground/lib/systemc-2.3.3/objdir/docs/sysc/doxygen/systemc.tag$a01224.html"];
+  Node13 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13 [label="sc_core::sc_port_b\l\< IF \>",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="/mnt/c/Users/fangk/Documents/hdl-playground/lib/systemc-2.3.3/objdir/docs/sysc/doxygen/systemc.tag$a01220.html"];
+}

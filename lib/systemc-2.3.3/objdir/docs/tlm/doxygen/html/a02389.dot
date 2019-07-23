@@ -1,0 +1,21 @@
+digraph "tlm::tlm_slave_imp&lt; REQ, RSP &gt;"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node18 [label="tlm::tlm_slave_imp\l\< REQ, RSP \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node19 -> Node18 [dir="back",color="firebrick4",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19 [label="tlm::tlm_put_get_imp\l\< RSP, REQ \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a02383.html"];
+  Node20 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20 [label="tlm::tlm_put_if\< RSP \>",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a02295.html"];
+  Node24 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node24 [label="tlm::tlm_get_peek_if\l\< REQ \>",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a02319.html"];
+  Node33 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node33 [label="tlm::tlm_slave_if\<\l REQ, RSP \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a02359.html"];
+  Node20 -> Node33 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node24 -> Node33 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34 -> Node33 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34 [label="tlm::tlm_blocking_slave\l_if\< REQ, RSP \>",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a02343.html"];
+  Node35 -> Node33 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node35 [label="tlm::tlm_nonblocking\l_slave_if\< REQ, RSP \>",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a02351.html"];
+}

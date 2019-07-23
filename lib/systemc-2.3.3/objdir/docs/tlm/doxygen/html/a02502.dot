@@ -1,0 +1,17 @@
+digraph "tlm::tlm_base_initiator_socket_b&lt; BUSWIDTH, FW_IF, BW_IF &gt;"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="tlm::tlm_base_initiator\l_socket_b\< BUSWIDTH, FW\l_IF, BW_IF \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="tlm::tlm_base_initiator\l_socket\< BUSWIDTH, FW\l_IF, BW_IF \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a02515.html"];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="tlm_base_initiator\l_socket\< BUSWIDTH, tlm\l_fw_transport_if\< TYPES\l \>, tlm_bw_transport_if\l\< TYPES \>, N, POL \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a02515.html"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="tlm::tlm_initiator\l_socket\< BUSWIDTH, TYPES,\l N, POL \>",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a02519.html"];
+  Node2 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="tlm::tlm_initiator\l_socket\< BUSWIDTH, TYPES,\l 1, POL \>",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a02519.html"];
+  Node2 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15 [label="tlm::tlm_initiator\l_socket\< BUSWIDTH, TYPES,\l 1, sc_core::SC_ONE_OR\l_MORE_BOUND \>",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a02519.html"];
+}

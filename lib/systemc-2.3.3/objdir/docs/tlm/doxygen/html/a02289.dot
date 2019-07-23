@@ -1,0 +1,13 @@
+digraph "tlm::tlm_get_if&lt; T &gt;"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node8 [label="tlm::tlm_get_if\< T \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node9 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="tlm::tlm_blocking_get\l_if\< T \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a02275.html"];
+  Node10 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="sc_core::sc_interface",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="/mnt/c/Users/fangk/Documents/hdl-playground/lib/systemc-2.3.3/objdir/docs/sysc/doxygen/systemc.tag$a01196.html"];
+  Node11 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="tlm::tlm_nonblocking\l_get_if\< T \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a02283.html"];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

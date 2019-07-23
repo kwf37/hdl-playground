@@ -1,0 +1,39 @@
+digraph "sysc/kernel/sc_event.h"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node54 [label="sysc/kernel/sc_event.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node54 -> Node55 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node55 [label="sysc/communication\l/sc_port.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a00047.html"];
+  Node55 -> Node56 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node56 [label="sysc/communication\l/sc_signal.h",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a00059.html"];
+  Node56 -> Node58 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node58 [label="systemc",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a00401.html"];
+  Node55 -> Node64 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node64 [label="sysc/communication\l/sc_event_finder.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a00014.html"];
+  Node64 -> Node65 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node65 [label="sysc/communication\l/sc_signal_ports.h",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a00065.html"];
+  Node65 -> Node58 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node55 -> Node65 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node55 -> Node78 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node78 [label="sysc/communication\l/sc_event_queue.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a00017.html"];
+  Node78 -> Node58 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node55 -> Node79 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node79 [label="sysc/communication\l/sc_fifo_ports.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a00029.html"];
+  Node79 -> Node58 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node54 -> Node56 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node54 -> Node78 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node54 -> Node80 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node80 [label="sysc/communication\l/sc_fifo.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a00023.html"];
+  Node80 -> Node58 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node54 -> Node81 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node81 [label="sysc/communication\l/sc_mutex.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a00041.html"];
+  Node81 -> Node58 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node54 -> Node82 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node82 [label="sysc/communication\l/sc_semaphore.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a00053.html"];
+  Node82 -> Node58 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node54 -> Node69 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node69 [label="sysc/kernel/sc_thread\l_process.h",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a00326.html"];
+  Node54 -> Node77 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node77 [label="sysc/kernel/sc_method\l_process.h",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a00266.html"];
+}

@@ -1,0 +1,13 @@
+digraph "tlm_utils::passthrough_target_socket_tagged_optional&lt; MODULE, BUSWIDTH, TYPES &gt;"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node11 [label="tlm_utils::passthrough\l_target_socket_tagged\l_optional\< MODULE, BUSWIDTH,\l TYPES \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node12 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12 [label="tlm_utils::passthrough\l_target_socket_tagged\l_b\< MODULE, BUSWIDTH, TYPES,\l sc_core::SC_ZERO_OR_MORE_BOUND \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a02635.html"];
+  Node13 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13 [label="tlm::tlm_target_socket\l\< BUSWIDTH, TYPES, 1, POL \>",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a02523.html"];
+  Node23 -> Node12 [dir="back",color="darkgreen",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23 [label="tlm_utils::passthrough\l_socket_base",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a02535.html"];
+}

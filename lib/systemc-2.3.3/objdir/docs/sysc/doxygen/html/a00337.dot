@@ -1,0 +1,38 @@
+digraph "sysc/kernel/sc_wait.h"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node42 [label="sysc/kernel/sc_wait.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node42 -> Node43 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node43 [label="sysc/kernel/sc_module.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a00269.html"];
+  Node43 -> Node44 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node44 [label="systemc",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a00401.html"];
+  Node43 -> Node46 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node46 [label="sysc/kernel/sc_process\l_handle.h",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a00296.html"];
+  Node46 -> Node43 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node46 -> Node44 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node43 -> Node53 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node53 [label="sysc/communication\l/sc_clock.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a00005.html"];
+  Node53 -> Node44 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node43 -> Node71 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node71 [label="sysc/communication\l/sc_event_queue.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a00017.html"];
+  Node71 -> Node44 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node43 -> Node66 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node66 [label="sysc/kernel/sc_object\l_int.h",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a00284.html"];
+  Node42 -> Node78 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node78 [label="sysc/communication\l/sc_prim_channel.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a00050.html"];
+  Node78 -> Node51 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node51 [label="sysc/communication\l/sc_signal.h",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a00059.html"];
+  Node51 -> Node53 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node51 -> Node44 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node78 -> Node73 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node73 [label="sysc/communication\l/sc_fifo.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a00023.html"];
+  Node73 -> Node44 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node42 -> Node74 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node74 [label="sysc/communication\l/sc_mutex.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a00041.html"];
+  Node74 -> Node44 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node42 -> Node79 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node79 [label="sysc/kernel/sc_join.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a00257.html"];
+  Node79 -> Node69 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node69 [label="sysc/kernel/sc_dynamic\l_processes.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a00245.html"];
+}

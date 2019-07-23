@@ -1,0 +1,38 @@
+digraph "sysc/communication/sc_export.h"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node17 [label="sysc/communication\l/sc_export.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node17 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18 [label="sysc/kernel/sc_process.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a00293.html"];
+  Node18 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19 [label="sysc/kernel/sc_module.h",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a00269.html"];
+  Node19 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20 [label="systemc",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a00401.html"];
+  Node18 -> Node54 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node54 [label="sysc/kernel/sc_sensitive.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a00308.html"];
+  Node54 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18 -> Node55 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node55 [label="sysc/kernel/sc_simcontext.h",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a00311.html"];
+  Node55 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node55 -> Node27 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node27 [label="sysc/communication\l/sc_signal.h",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a00059.html"];
+  Node27 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18 -> Node26 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node26 [label="sysc/communication\l/sc_port.h",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a00047.html"];
+  Node26 -> Node27 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18 -> Node27 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18 -> Node38 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node38 [label="sysc/kernel/sc_thread\l_process.h",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a00326.html"];
+  Node18 -> Node58 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node58 [label="sysc/kernel/sc_join.h",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a00257.html"];
+  Node18 -> Node46 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node46 [label="sysc/kernel/sc_method\l_process.h",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a00266.html"];
+  Node18 -> Node94 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node94 [label="sysc/kernel/sc_runnable.h",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a00302.html"];
+  Node17 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17 -> Node37 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node37 [label="sysc/kernel/sc_spawn\l_options.h",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a00320.html"];
+  Node37 -> Node38 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node37 -> Node46 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

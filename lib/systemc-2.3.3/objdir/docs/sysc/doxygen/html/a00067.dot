@@ -1,0 +1,25 @@
+digraph "sysc/communication/sc_signal_ports.h"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node59 [label="sysc/communication\l/sc_signal_ports.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node59 -> Node60 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node60 [label="sysc/communication\l/sc_clock_ports.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a00008.html"];
+  Node60 -> Node61 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node61 [label="systemc",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a00401.html"];
+  Node59 -> Node61 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node59 -> Node63 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node63 [label="sysc/communication\l/sc_signal_resolved\l_ports.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a00071.html"];
+  Node63 -> Node61 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node59 -> Node64 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node64 [label="sysc/communication\l/sc_signal_rv_ports.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a00077.html"];
+  Node64 -> Node61 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node59 -> Node65 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node65 [label="sysc/kernel/sc_spawn\l_options.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a00320.html"];
+  Node65 -> Node66 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node66 [label="sysc/kernel/sc_thread\l_process.h",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a00326.html"];
+  Node65 -> Node72 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node72 [label="sysc/kernel/sc_spawn.h",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a00317.html"];
+  Node65 -> Node74 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node74 [label="sysc/kernel/sc_method\l_process.h",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a00266.html"];
+}

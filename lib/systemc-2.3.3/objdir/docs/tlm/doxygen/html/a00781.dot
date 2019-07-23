@@ -1,0 +1,20 @@
+digraph "tlm_core/tlm_2/tlm_sockets/tlm_sockets.h"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node105 [label="tlm_core/tlm_2/tlm\l_sockets/tlm_sockets.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node105 -> Node106 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node106 [label="tlm",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a00671.html"];
+  Node106 -> Node107 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node107 [label="tlm_utils/instance\l_specific_extensions_int.h",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a00794.html"];
+  Node106 -> Node109 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node109 [label="tlm_utils/multi_socket\l_bases.h",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a00803.html"];
+  Node106 -> Node112 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node112 [label="tlm_utils/passthrough\l_target_socket.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a00806.html"];
+  Node106 -> Node113 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node113 [label="tlm_utils/peq_with\l_cb_and_phase.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a00809.html"];
+  Node106 -> Node114 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node114 [label="tlm_utils/simple_initiator\l_socket.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a00815.html"];
+  Node106 -> Node115 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node115 [label="tlm_utils/simple_target\l_socket.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a00818.html"];
+}

@@ -1,0 +1,19 @@
+digraph "sysc/kernel/sc_spawn_options.h"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node60 [label="sysc/kernel/sc_spawn\l_options.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node60 -> Node61 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node61 [label="sysc/kernel/sc_thread\l_process.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a00326.html"];
+  Node61 -> Node62 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node62 [label="sysc/kernel/sc_cthread\l_process.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a00242.html"];
+  Node61 -> Node63 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node63 [label="sysc/kernel/sc_runnable\l_int.h",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a00305.html"];
+  Node60 -> Node67 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node67 [label="sysc/kernel/sc_spawn.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a00317.html"];
+  Node67 -> Node68 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node68 [label="sysc/kernel/sc_dynamic\l_processes.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a00245.html"];
+  Node60 -> Node69 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node69 [label="sysc/kernel/sc_method\l_process.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a00266.html"];
+  Node69 -> Node63 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,21 @@
+digraph "tlm_utils::multi_socket_base"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="tlm_utils::multi_socket_base",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="tlm_utils::convenience\l_socket_base",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a02527.html"];
+  Node0 -> Node2 [dir="back",color="darkgreen",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="tlm_utils::multi_init\l_base\< BUSWIDTH, TYPES,\l N, POL \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a02603.html"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="multi_passthrough_initiator\l_socket\< MODULE, BUSWIDTH,\l TYPES, N, sc_core::SC_ZERO\l_OR_MORE_BOUND \>",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a02571.html"];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="tlm_utils::multi_passthrough\l_initiator_socket\< BUSWIDTH,\l TYPES, N, POL \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a02571.html"];
+  Node0 -> Node6 [dir="back",color="darkgreen",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="tlm_utils::multi_target\l_base\< BUSWIDTH, TYPES,\l N, POL \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a02611.html"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="multi_passthrough_target\l_socket\< MODULE, BUSWIDTH,\l TYPES, N, sc_core::SC_ZERO\l_OR_MORE_BOUND \>",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a02579.html"];
+  Node6 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="tlm_utils::multi_passthrough\l_target_socket\< BUSWIDTH,\l TYPES, N, POL \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a02579.html"];
+}

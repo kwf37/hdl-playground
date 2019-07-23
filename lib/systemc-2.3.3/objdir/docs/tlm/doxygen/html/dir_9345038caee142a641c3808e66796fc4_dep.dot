@@ -1,0 +1,18 @@
+digraph "tlm_core/tlm_2" {
+  compound=true
+  node [ fontsize="10", fontname="FreeSans"];
+  edge [ labelfontsize="10", labelfontname="FreeSans"];
+  subgraph clusterdir_54d760f7f187686fd9c4b070d5c46b52 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="tlm_core" fontname="FreeSans", fontsize="10", URL="dir_54d760f7f187686fd9c4b070d5c46b52.html"]
+  subgraph clusterdir_9345038caee142a641c3808e66796fc4 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_9345038caee142a641c3808e66796fc4.html"];
+    dir_9345038caee142a641c3808e66796fc4 [shape=plaintext label="tlm_2"];
+    dir_2b672b167c117538c64dd28adfbb585e [shape=box label="tlm_2_interfaces" color="black" fillcolor="white" style="filled" URL="dir_2b672b167c117538c64dd28adfbb585e.html"];
+    dir_c71f0c876475a7748a1d7bf643718c97 [shape=box label="tlm_generic_payload" color="black" fillcolor="white" style="filled" URL="dir_c71f0c876475a7748a1d7bf643718c97.html"];
+    dir_cfd40c4c39d823af6ff63a228b6dcd82 [shape=box label="tlm_quantum" color="black" fillcolor="white" style="filled" URL="dir_cfd40c4c39d823af6ff63a228b6dcd82.html"];
+    dir_96e45f98180611878bfbaabd973454d0 [shape=box label="tlm_sockets" color="black" fillcolor="white" style="filled" URL="dir_96e45f98180611878bfbaabd973454d0.html"];
+  }
+  }
+  dir_96e45f98180611878bfbaabd973454d0->dir_2b672b167c117538c64dd28adfbb585e [headlabel="2", labeldistance=1.5 headhref="dir_000014_000011.html"];
+  dir_2b672b167c117538c64dd28adfbb585e->dir_c71f0c876475a7748a1d7bf643718c97 [headlabel="1", labeldistance=1.5 headhref="dir_000011_000012.html"];
+}

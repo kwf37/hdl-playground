@@ -1,0 +1,11 @@
+digraph "tlm_core/tlm_2/tlm_sockets" {
+  compound=true
+  node [ fontsize="10", fontname="FreeSans"];
+  edge [ labelfontsize="10", labelfontname="FreeSans"];
+  subgraph clusterdir_9345038caee142a641c3808e66796fc4 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="tlm_2" fontname="FreeSans", fontsize="10", URL="dir_9345038caee142a641c3808e66796fc4.html"]
+  dir_96e45f98180611878bfbaabd973454d0 [shape=box, label="tlm_sockets", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_96e45f98180611878bfbaabd973454d0.html"];
+  }
+  dir_2b672b167c117538c64dd28adfbb585e [shape=box label="tlm_2_interfaces" URL="dir_2b672b167c117538c64dd28adfbb585e.html"];
+  dir_96e45f98180611878bfbaabd973454d0->dir_2b672b167c117538c64dd28adfbb585e [headlabel="2", labeldistance=1.5 headhref="dir_000014_000011.html"];
+}

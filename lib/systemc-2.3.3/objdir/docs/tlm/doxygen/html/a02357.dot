@@ -1,0 +1,31 @@
+digraph "tlm::tlm_slave_if&lt; REQ, RSP &gt;"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node17 [label="tlm::tlm_slave_if\<\l REQ, RSP \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node18 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18 [label="tlm::tlm_put_if\< RSP \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a02295.html"];
+  Node19 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19 [label="tlm::tlm_blocking_put\l_if\< RSP \>",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a02279.html"];
+  Node21 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21 [label="tlm::tlm_nonblocking\l_put_if\< RSP \>",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a02287.html"];
+  Node22 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22 [label="tlm::tlm_get_peek_if\l\< REQ \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a02319.html"];
+  Node23 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23 [label="tlm::tlm_get_if\< REQ \>",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a02291.html"];
+  Node26 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node26 [label="tlm::tlm_peek_if\< REQ \>",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a02307.html"];
+  Node29 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node29 [label="tlm::tlm_blocking_get\l_peek_if\< REQ \>",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a02311.html"];
+  Node30 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node30 [label="tlm::tlm_nonblocking\l_get_peek_if\< REQ \>",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a02315.html"];
+  Node31 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node31 [label="tlm::tlm_blocking_slave\l_if\< REQ, RSP \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a02343.html"];
+  Node19 -> Node31 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node29 -> Node31 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node32 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node32 [label="tlm::tlm_nonblocking\l_slave_if\< REQ, RSP \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a02351.html"];
+  Node21 -> Node32 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node30 -> Node32 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

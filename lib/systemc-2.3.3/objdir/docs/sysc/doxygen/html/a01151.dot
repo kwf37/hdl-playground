@@ -1,0 +1,23 @@
+digraph "sc_core::sc_fifo&lt; T &gt;"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="sc_core::sc_fifo\< T \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="sc_core::sc_fifo_in\l_if\< T \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a01164.html"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="sc_core::sc_fifo_nonblocking\l_in_if\< T \>",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a01156.html"];
+  Node4 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="sc_core::sc_fifo_blocking\l_in_if\< T \>",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a01160.html"];
+  Node5 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="sc_core::sc_fifo_out\l_if\< T \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a01176.html"];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="sc_core::sc_fifo_nonblocking\l_out_if\< T \>",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a01168.html"];
+  Node7 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="sc_core::sc_fifo_blocking\l_out_if\< T \>",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a01172.html"];
+  Node8 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="sc_core::sc_prim_channel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a01228.html"];
+  Node9 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="sc_core::sc_object",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a01884.html"];
+}

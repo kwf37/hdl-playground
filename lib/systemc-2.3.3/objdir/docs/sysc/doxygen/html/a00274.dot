@@ -1,0 +1,22 @@
+digraph "sysc/kernel/sc_module_name.h"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node1 [label="sysc/kernel/sc_module\l_name.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="sysc/kernel/sc_module.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a00269.html"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="systemc",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a00401.html"];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="sysc/kernel/sc_process\l_handle.h",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a00296.html"];
+  Node5 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12 [label="sysc/communication\l/sc_clock.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a00005.html"];
+  Node12 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 -> Node30 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node30 [label="sysc/communication\l/sc_event_queue.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a00017.html"];
+  Node30 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 -> Node25 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node25 [label="sysc/kernel/sc_object\l_int.h",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a00284.html"];
+}

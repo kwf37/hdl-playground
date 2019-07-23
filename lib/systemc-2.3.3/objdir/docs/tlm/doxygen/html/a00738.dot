@@ -1,0 +1,29 @@
+digraph "tlm_core/tlm_1/tlm_req_rsp/tlm_req_rsp.h"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node0 [label="tlm_core/tlm_1/tlm\l_req_rsp/tlm_req_rsp.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="tlm_core/tlm_1/tlm\l_req_rsp/tlm_1_interfaces\l/tlm_core_ifs.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a00695.html"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="tlm_core/tlm_1/tlm\l_req_rsp/tlm_1_interfaces\l/tlm_tag.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a00704.html"];
+  Node0 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="tlm_core/tlm_1/tlm\l_req_rsp/tlm_1_interfaces\l/tlm_master_slave_ifs.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a00701.html"];
+  Node3 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node0 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="tlm_core/tlm_1/tlm\l_req_rsp/tlm_channels\l/tlm_req_rsp_channels\l/tlm_req_rsp_channels.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a00728.html"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="tlm_core/tlm_1/tlm\l_req_rsp/tlm_adapters\l/tlm_adapters.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a00707.html"];
+  Node5 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="tlm_core/tlm_1/tlm\l_req_rsp/tlm_channels\l/tlm_fifo/tlm_fifo.h",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a00713.html"];
+  Node4 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13 [label="tlm_core/tlm_1/tlm\l_req_rsp/tlm_channels\l/tlm_req_rsp_channels\l/tlm_put_get_imp.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a00725.html"];
+  Node13 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node0 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14 [label="tlm_core/tlm_1/tlm\l_req_rsp/tlm_ports/tlm\l_nonblocking_port.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a00734.html"];
+  Node14 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15 [label="tlm_core/tlm_1/tlm\l_req_rsp/tlm_ports/tlm\l_event_finder.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a00731.html"];
+  Node15 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,37 @@
+digraph "sc_core::sc_process_handle"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="sc_core::sc_process\l_handle",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" empty_object_vector" ,fontname="FreeSans"];
+  Node2 [label="std::vector\< sc_core\l::sc_object *\>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="FreeSans"];
+  Node3 [label="sc_core::sc_object",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a01884.html"];
+  Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" non_event" ,fontname="FreeSans"];
+  Node4 [label="sc_core::sc_event",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a01828.html"];
+  Node4 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" none" ,fontname="FreeSans"];
+  Node5 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" empty_event_vector" ,fontname="FreeSans"];
+  Node5 [label="std::vector\< sc_core\l::sc_event *\>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node4 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="FreeSans"];
+  Node6 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_target_p" ,fontname="FreeSans"];
+  Node6 [label="sc_core::sc_process_b",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a01924.html"];
+  Node3 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_name_gen_p" ,fontname="FreeSans"];
+  Node7 [label="sc_core::sc_name_gen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a01880.html"];
+  Node8 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_event_list_p" ,fontname="FreeSans"];
+  Node8 [label="sc_core::sc_event_list",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a01816.html"];
+  Node9 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_throw_helper_p" ,fontname="FreeSans"];
+  Node9 [label="sc_core::sc_throw_it\l_helper",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a01916.html"];
+  Node4 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_event_p\nm_timeout_event\l_p\nm_resume_event\l_p\nm_reset_event\l_p\nm_term_event_p" ,fontname="FreeSans"];
+  Node10 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_semantics_host_p" ,fontname="FreeSans"];
+  Node10 [label="sc_core::sc_process_host",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a01908.html"];
+  Node11 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_last_report_p" ,fontname="FreeSans"];
+  Node11 [label="sc_core::sc_report",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a02100.html"];
+  Node15 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_resets" ,fontname="FreeSans"];
+  Node15 [label="std::vector\< sc_core\l::sc_reset *\>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node21 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_static_events" ,fontname="FreeSans"];
+  Node21 [label="std::vector\< const\l sc_core::sc_event *\>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node4 -> Node21 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="FreeSans"];
+  Node6 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_last_created_process\l_p\nm_runnable_p\nm_exist_p" ,fontname="FreeSans"];
+}

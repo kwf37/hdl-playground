@@ -1,0 +1,21 @@
+digraph "sc_core::sc_writer_policy_check_write"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4 [label="sc_core::sc_writer\l_policy_check_write",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node5 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_writer_p" ,fontname="FreeSans"];
+  Node5 [label="sc_core::sc_process\l_handle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a01932.html"];
+  Node6 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" empty_object_vector" ,fontname="FreeSans"];
+  Node6 [label="std::vector\< sc_core\l::sc_object *\>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node8 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" non_event" ,fontname="FreeSans"];
+  Node8 [label="sc_core::sc_event",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a01828.html"];
+  Node8 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" none" ,fontname="FreeSans"];
+  Node9 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" empty_event_vector" ,fontname="FreeSans"];
+  Node9 [label="std::vector\< sc_core\l::sc_event *\>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node8 -> Node9 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="FreeSans"];
+  Node10 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_target_p" ,fontname="FreeSans"];
+  Node10 [label="sc_core::sc_process_b",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a01924.html"];
+  Node8 -> Node10 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_event_p\nm_timeout_event\l_p\nm_resume_event\l_p\nm_reset_event\l_p\nm_term_event_p" ,fontname="FreeSans"];
+  Node10 -> Node10 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_last_created_process\l_p\nm_runnable_p\nm_exist_p" ,fontname="FreeSans"];
+}

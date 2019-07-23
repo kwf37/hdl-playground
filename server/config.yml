@@ -1,0 +1,8 @@
+languages:
+  - SystemVerilog
+  - Chisel
+  - BlueSpec
+  - HardCaml
+
+problems:
+  - counter

@@ -1,0 +1,15 @@
+digraph "tlm_utils::callback_binder_bw&lt; TYPES &gt;"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="tlm_utils::callback\l_binder_bw\< TYPES \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="tlm::tlm_bw_transport\l_if\< TYPES \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a02455.html"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="tlm::tlm_bw_nonblocking\l_transport_if\< TYPES::\ltlm_payload_type, TYPES\l::tlm_phase_type \>",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a02427.html"];
+  Node4 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="tlm::tlm_bw_direct\l_mem_if",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a02439.html"];
+  Node5 -> Node0 [dir="back",color="darkgreen",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="tlm_utils::convenience\l_socket_cb_holder",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a02543.html"];
+}

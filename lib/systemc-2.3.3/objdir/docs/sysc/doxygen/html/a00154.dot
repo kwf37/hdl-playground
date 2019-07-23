@@ -1,0 +1,18 @@
+digraph "sysc/datatypes/fx/scfx_ieee.h"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node25 [label="sysc/datatypes/fx/scfx\l_ieee.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node25 -> Node26 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node26 [label="sysc/kernel/sc_time.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a00329.html"];
+  Node26 -> Node27 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node27 [label="sysc/kernel/sc_module.h",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a00269.html"];
+  Node26 -> Node62 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node62 [label="sysc/kernel/sc_simcontext.h",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a00311.html"];
+  Node26 -> Node101 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node101 [label="sysc/tracing/sc_trace.h",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a00341.html"];
+  Node25 -> Node90 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node90 [label="sysc/datatypes/int\l/sc_uint_base.h",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a00209.html"];
+  Node25 -> Node95 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node95 [label="sysc/datatypes/fx/scfx\l_mant.h",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a00155.html"];
+}

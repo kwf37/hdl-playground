@@ -1,0 +1,16 @@
+digraph "tlm::tlm_bw_transport_if&lt; TYPES &gt;"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="tlm::tlm_bw_transport\l_if\< TYPES \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="tlm::tlm_bw_nonblocking\l_transport_if\< TYPES::\ltlm_payload_type, TYPES\l::tlm_phase_type \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a02427.html"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="sc_core::sc_interface",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="/mnt/c/Users/fangk/Documents/hdl-playground/lib/systemc-2.3.3/objdir/docs/sysc/doxygen/systemc.tag$a01196.html"];
+  Node3 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="tlm::tlm_bw_direct\l_mem_if",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a02439.html"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node0 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="tlm_utils::callback\l_binder_bw\< TYPES \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a02595.html"];
+}

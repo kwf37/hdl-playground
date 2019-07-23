@@ -1,0 +1,6 @@
+[submodule "lib/ace-builds"]
+	path = lib/ace-builds
+	url = https://github.com/ajaxorg/ace-builds.git
+[submodule "lib/verilator"]
+	path = lib/verilator
+	url = http://git.veripool.org/git/verilator

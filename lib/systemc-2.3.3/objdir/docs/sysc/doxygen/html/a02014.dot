@@ -1,0 +1,10 @@
+digraph "sc_core::sc_trace_file_base"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node4 [label="sc_core::sc_trace_file_base",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="sc_core::sc_trace_file",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a02012.html"];
+  Node6 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" fp" ,fontname="FreeSans"];
+  Node6 [label="FILE",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}

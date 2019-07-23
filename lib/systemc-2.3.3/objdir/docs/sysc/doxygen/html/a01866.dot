@@ -1,0 +1,17 @@
+digraph "sc_core::sc_module"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4 [label="sc_core::sc_module",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="sc_core::sc_object",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a01884.html"];
+  Node6 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="sc_core::sc_process_host",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a01908.html"];
+  Node7 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" sensitive_neg" ,fontname="FreeSans"];
+  Node7 [label="sc_core::sc_sensitive_neg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a01964.html"];
+  Node8 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" sensitive" ,fontname="FreeSans"];
+  Node8 [label="sc_core::sc_sensitive",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a01956.html"];
+  Node9 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" sensitive_pos" ,fontname="FreeSans"];
+  Node9 [label="sc_core::sc_sensitive_pos",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a01960.html"];
+}

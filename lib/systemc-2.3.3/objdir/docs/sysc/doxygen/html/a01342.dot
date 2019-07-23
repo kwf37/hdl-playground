@@ -1,0 +1,15 @@
+digraph "sc_core::sc_inout_rv&lt; W &gt;"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node7 [label="sc_core::sc_inout_rv\< W \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node8 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="sc_core::sc_inout\<\l sc_dt::sc_lv\< W \> \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a01300.html"];
+  Node9 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="sc_core::sc_port\< sc\l_signal_inout_if\< sc\l_dt::sc_lv\< W \> \>, 1,\l SC_ONE_OR_MORE_BOUND \>",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a01224.html"];
+  Node13 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_init_val" ,fontname="FreeSans"];
+  Node13 [label="sc_dt::sc_lv\< W \>",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$a01436.html"];
+  Node16 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_traces" ,fontname="FreeSans"];
+  Node16 [label="std::vector\< T \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip="STL class. "];
+}
