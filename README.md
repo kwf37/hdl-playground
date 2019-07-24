@@ -6,3 +6,9 @@
 * `client/`: Contains code for the React frontend. This is in an intermediate stage and will be change drastically as this project progresses.
 * `public/`: Deprecated- to be removed
 * `lib/`: External HDL library dependencies (mostly Git submodules) are placed here. Frontend dependencies or Node dependencies should be installed using npm in either `server/` or `client/`
+
+### Useful Links
+* https://reactjs.org/docs/add-react-to-a-website.html
+* https://reactjs.org/tutorial/tutorial.html
+* https://mherman.org/blog/local-authentication-with-passport-and-express-4/
+
