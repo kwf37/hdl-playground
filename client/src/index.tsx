@@ -1,13 +1,13 @@
-import * as React from 'react';
-import * as ReactDOM from 'react-dom';
-import Tab from 'react-bootstrap/Tab';
-import Tabs from 'react-bootstrap/Tabs';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Button from 'react-bootstrap/Button';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { Tab, Tabs, Row, Col, Button } from 'react-bootstrap';
+
+console.log(React);
+console.log(Tabs);
+console.log(Tab.Container);
 
 // Our modules
-import {LoginForm, RegisterForm} from './loginForm';
+import { LoginForm, RegisterForm } from './loginForm';
 
 // Packages for using ACE Editorimport React from 'react';
 import { render } from 'react-dom';
@@ -76,27 +76,27 @@ class FilePane extends React.Component<EmptyProp, FilePaneState> {
     }
 
     componentDidMount() {
-        const params = {problem: 'hello', language: 'bye'};
+        const params = { problem: 'hello', language: 'bye' };
         const urlParams = new URLSearchParams(Object.entries(params));
 
         fetch("/api/getList" + "?" + urlParams)
-        .then(res => res.json())
-        .then(
-            (result) => {
-                this.setState({
-                    list: result,
-                });
-            }
-        )
+            .then(res => res.json())
+            .then(
+                (result) => {
+                    this.setState({
+                        list: result,
+                    });
+                }
+            )
     }
 
-    render () {
+    render() {
         return (
-        this.state.list.map((item) => {
-            return(
-                <div>{item}</div>
-            );
-        })
+            this.state.list.map((item) => {
+                return (
+                    <div>{item}</div>
+                );
+            })
         );
     }
 }
@@ -108,6 +108,7 @@ class EditorTabs extends React.Component<EditorProp, KeyProp> {
         this.state = {
             key: 'tab-1',
         };
+
     }
 
     /**
@@ -136,7 +137,7 @@ class EditorTabs extends React.Component<EditorProp, KeyProp> {
     tabKey(file: File): string {
         switch (file.kind) {
             case "exists": return "tab-" + file.name;
-            case "unsaved": return "tab-untitiled" + file.id; 
+            case "unsaved": return "tab-untitiled" + file.id;
         }
     }
 
@@ -185,23 +186,13 @@ class EditorTabs extends React.Component<EditorProp, KeyProp> {
 
     render() {
         return (
-            <Tab.Container defaultActiveKey="tab-0"
-                activeKey={this.state.key}
-                onSelect={((key: string) => this.tabControl(key)).bind(this)}>
-                <Row>
-                    <Nav variant="tabs" className="flex-row">
-                        {this.renderTabs()}
-                        <Nav.Item>
-                            <Nav.Link eventKey="tab-new">New Tab</Nav.Link>
-                        </Nav.Item>
-                    </Nav>
-                </Row>
-                <Row>
-                    <Tab.Content>
-                        {this.renderTabPanes()}
-                    </Tab.Content>
-                </Row>
-            </Tab.Container>
+            <AceEditor
+                    mode="java"
+                    theme="github"
+                    name={"editor-tab-"}
+                    editorProps={{ $blockScrolling: true }}
+                    onLoad={editor => console.log(editor.session)}
+                />
         );
     }
 }
@@ -241,8 +232,8 @@ class Editor extends React.Component<EmptyProp, EditorState> {
     render() {
         return (
             <div className="editor">
-                <LoginForm/>
-                <RegisterForm/>
+                <LoginForm />
+                <RegisterForm />
                 <FilePane />
                 <EditorTabs
                     files={this.state.files}

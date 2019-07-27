@@ -26,7 +26,8 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 // Serve the static files from the React app
-app.use(express.static(path.join(__dirname, 'client/public')));
+app.use(express.static(path.join(__dirname, '/../client/public')));
+app.use('/dist', express.static(path.join(__dirname, '/../client/dist')));
 
 // Set up route handlers
 app.use('/', routes);
@@ -61,7 +62,7 @@ app.get('*', (req,res) =>{
 });
 
 
-const port = 3001;
+const port = 3000;
 app.listen(port);
 
 //fu.init_dir();
