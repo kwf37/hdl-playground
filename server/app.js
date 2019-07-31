@@ -30,7 +30,7 @@ app.use(express.static(path.join(__dirname, '/../client/public')));
 app.use('/dist', express.static(path.join(__dirname, '/../client/dist')));
 
 // Set up route handlers
-app.use('/', routes);
+//app.use('/', routes);
 
 // Mongoose setup
 mongoose.connect('mongodb://localhost/passport-hdl-playground', {useNewUrlParser: true});
@@ -57,9 +57,9 @@ app.get('/api/getList', (req,res) => {
 });
 
 // Handles any requests that don't match the ones above
-app.get('*', (req,res) =>{
-  res.sendFile(path.join(__dirname+'/../client/public/index.html'));
-});
+//app.get('*', (req,res) =>{
+//  res.sendFile(path.join(__dirname+'/../client/public/index.html'));
+//});
 
 
 const port = 3000;

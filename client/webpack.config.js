@@ -1,5 +1,20 @@
+const path = require('path');
+const WebpackCleanPlugin = require('webpack-clean-plugin');
+
+
 module.exports = {
     mode: "production",
+    entry: {
+        welcome: "./src/pages/welcome.tsx",
+        login: "./src/pages/login.tsx",
+        register: "./src/pages/register.tsx",
+        playground: "./src/pages/playground.tsx",
+    },
+
+    output: {
+        path: path.resolve(__dirname, 'dist'),
+        filename: "[name].js"
+    },
 
     // Enable sourcemaps for debugging webpack's output.
     devtool: "source-map",
@@ -17,23 +32,17 @@ module.exports = {
                 exclude: /node_modules/,
                 use: [
                     {
-                        loader: 'babel-loader',
-                        options: {
-                            presets: ["@babel/preset-env","@babel/preset-react"]
-                        }
-                    },
-                    {
                         loader: "ts-loader"
-                    }
+                    },
                 ]
             },
             {
-              test: /.jsx?$/,
-              loader: 'babel-loader',
-              exclude: /node_modules/,
-              query: {
-                presets: ["@babel/preset-env","@babel/preset-react"]
-              }
+                test: /.jsx?$/,
+                loader: 'babel-loader',
+                exclude: /node_modules/,
+                query: {
+                    presets: ["@babel/preset-env", "@babel/preset-react"]
+                }
             },
             // All output '.js' files will have any sourcemaps re-processed by 'source-map-loader'.
             {
@@ -43,6 +52,13 @@ module.exports = {
             }
         ]
     },
+    plugins: [
+        // For removing old files from dist/
+        new WebpackCleanPlugin({
+            on: "emit",
+            path: [path.resolve(__dirname, 'dist')]
+        }),
+    ],
 
     // When importing a module whose path matches one of the following, just
     // assume a corresponding global variable exists and use that instead.
