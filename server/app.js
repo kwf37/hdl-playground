@@ -7,7 +7,8 @@ const mongoose = require('mongoose');
 const passport = require('passport');
 const LocalStrategy = require('passport-local').Strategy;
 
-const routes = require('./routes/index');
+const routes = require('./routes/accounts');
+const pages = require('./routes/pages');
 
 const fu = require('./file_utils.js');
 
@@ -26,11 +27,11 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 // Serve the static files from the React app
-app.use(express.static(path.join(__dirname, '/../client/public')));
 app.use('/dist', express.static(path.join(__dirname, '/../client/dist')));
 
 // Set up route handlers
-//app.use('/', routes);
+app.use('/', routes);
+app.use('/', pages);
 
 // Mongoose setup
 mongoose.connect('mongodb://localhost/passport-hdl-playground', {useNewUrlParser: true});

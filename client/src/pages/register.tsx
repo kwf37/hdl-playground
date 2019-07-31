@@ -5,7 +5,7 @@ import { RegisterForm } from '../components/LoginForm';
 import withDefaultLayout from '../components/DefaultLayout';
 
 function RegisterPage() {
-    return withDefaultLayout(RegisterForm);
+    return withDefaultLayout(RegisterForm());
 }
 
 ReactDOM.render(

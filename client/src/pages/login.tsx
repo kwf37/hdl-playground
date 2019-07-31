@@ -5,7 +5,7 @@ import { LoginForm } from '../components/LoginForm';
 import withDefaultLayout from '../components/DefaultLayout';
 
 function LoginPage() {
-    return withDefaultLayout(LoginForm);
+    return withDefaultLayout(LoginForm());
 }
 
 ReactDOM.render(
