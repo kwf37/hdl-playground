@@ -23,7 +23,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "dev": "npx webpack --watch src/ --config ./webpack.config.js",
+    "dev": "grunt",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

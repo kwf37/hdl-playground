@@ -69,3 +69,5 @@ app.listen(port);
 //fu.init_dir();
 
 console.log('Listening on Port ' + port);
+
+module.exports = app; // Export app for testing
