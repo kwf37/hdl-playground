@@ -1,5 +1,5 @@
 # HDL Playground
-
+[![CircleCI](https://circleci.com/gh/kwf37/hdl-playground/tree/master.svg?style=svg)](https://circleci.com/gh/kwf37/hdl-playground/tree/master)
 ## Repository Structure:
 * `example/`: Contains example code snippets for trying out small features. Mostly used for HDL tests, but frontend snippets can go here too.
 * `server/`: Contains code for the backend Node.js server. Run the server in this directory using `npm start`.
