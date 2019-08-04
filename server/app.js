@@ -7,8 +7,8 @@ const mongoose = require('mongoose');
 const passport = require('passport');
 const LocalStrategy = require('passport-local').Strategy;
 
-const routes = require('./routes/accounts');
-const pages = require('./routes/pages');
+const user_routes = require('./routes/users');
+const page_routes = require('./routes/pages');
 
 const fu = require('./file_utils.js');
 
@@ -30,8 +30,8 @@ app.use(passport.session());
 app.use('/dist', express.static(path.join(__dirname, '/../client/dist')));
 
 // Set up route handlers
-app.use('/', routes);
-app.use('/', pages);
+app.use('/user', user_routes);
+app.use('/', page_routes);
 
 // Mongoose setup
 mongoose.connect('mongodb://localhost/passport-hdl-playground', {useNewUrlParser: true});
