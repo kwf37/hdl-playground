@@ -33,3 +33,11 @@ jobs:
           key: dependency-cache-{{ checksum "server/package.json" }}
           paths:
             - ./node_modules
+
+      - run:
+          name: test-server 
+          command: cd server && npm test 
+      - save_cache: # special step to save the dependency cache
+          key: dependency-cache-{{ checksum "server/package.json" }}
+          paths:
+            - ./node_modules
