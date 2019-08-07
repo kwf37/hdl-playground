@@ -8,6 +8,7 @@ jobs:
     docker:
       # specify the version you desire here
       - image: circleci/node:8.10
+      - image: mongo:3.4.4 # and this image as the secondary service container
 
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
@@ -37,3 +38,10 @@ jobs:
       - run:
           name: test-server 
           command: cd server && npm test 
+         
+      - store_artifacts:
+          path: test-results.xml
+          prefix: tests 
+
+      - store_test_results:
+          path: server/test-results.xml
