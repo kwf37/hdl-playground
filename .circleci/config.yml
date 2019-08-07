@@ -40,4 +40,4 @@ jobs:
           command: cd server && npm test 
           
       - store_test_results:
-          path: server/reports/test-results.xml
+          path: server/reports/
