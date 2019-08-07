@@ -41,9 +41,9 @@ jobs:
          
       - store_artifacts:
           path: server/reports/mocha
-          prefix: tests
+          destination: tests
       - store_artifacts:
           path: server/reports/coverage
-          prefix: coverage 
+          destination: coverage 
       - store_test_results:
           path: server/reports/
