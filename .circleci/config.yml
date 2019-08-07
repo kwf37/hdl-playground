@@ -38,10 +38,6 @@ jobs:
       - run:
           name: test-server 
           command: cd server && npm test 
-         
-      - store_artifacts:
-          path: test-results.xml
-          prefix: tests 
-
+          
       - store_test_results:
-          path: server/test-results.xml
+          path: server/reports/test-results.xml
